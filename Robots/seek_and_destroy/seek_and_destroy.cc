@@ -2,6 +2,7 @@
 #include <config.h>
 #endif
 
+#include <cstring>
 #include <iostream>
 #include <unistd.h>
 #include <signal.h>

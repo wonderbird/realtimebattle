@@ -46,6 +46,7 @@
 #include "../rtbglobal/masterresourcecontrol.h"
 
 #include <ios>
+#include <unistd.h>
 // #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/socket.h>

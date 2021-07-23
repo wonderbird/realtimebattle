@@ -34,6 +34,8 @@
 #include "../exceptions/keynotfoundexception.h"
 #include "../rtbglobal/masterresourcecontrol.h"
 
+#include <unistd.h>
+
 //STL
 #include <sstream>
 #include <ios>

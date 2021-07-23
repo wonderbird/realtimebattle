@@ -31,6 +31,7 @@ The original location of this file is cobra
 
 #include "../../strategies/clientspecificrepository.h"
 #include "../../exceptions/strategyexception.h"
+#include <memory>
 
 namespace cobra {
 

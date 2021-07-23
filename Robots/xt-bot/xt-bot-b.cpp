@@ -24,6 +24,7 @@ General Public License for more details.
 
 ****************************************************************************/
 
+#include <cstring>
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>

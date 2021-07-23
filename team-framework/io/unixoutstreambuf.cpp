@@ -28,6 +28,8 @@
 #include <common.h>
 
 #include "unixoutstreambuf.h"
+#include <unistd.h>
+#include <string.h>
 #include <sstream>
 #include <errno.h>
 /**

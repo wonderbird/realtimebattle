@@ -103,4 +103,7 @@ lengthsqr(const Vector2D& vec)
           vec.vector[1]*vec.vector[1] );
 }
 
+Vector2D
+angle2vec(const double angle);
+
 #endif
