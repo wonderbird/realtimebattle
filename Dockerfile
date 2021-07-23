@@ -7,7 +7,7 @@
 FROM debian:latest
 
 RUN apt-get -y update && \
-    apt-get -y --force-yes install build-essential default-jdk gawk pkg-config libgtk2.0-dev
+    apt-get -y install build-essential default-jdk gawk pkg-config libgtk2.0-dev
 
 WORKDIR /usr/src/
 
