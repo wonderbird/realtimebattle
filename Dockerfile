@@ -9,14 +9,6 @@ FROM debian:latest
 RUN apt-get -y update && \
     apt-get -y --force-yes install build-essential default-jdk gawk pkg-config libgtk2.0-dev
 
-# These commands copy your files into the specified directory in the image
-# and set that as the working location
-COPY . /usr/src/realtimebattle
-WORKDIR /usr/src/realtimebattle
-
-# This command compiles your app using GCC, adjust for your source code
-RUN ./configure && \
-    make && \
-    make check
+WORKDIR /usr/src/
 
 LABEL Name=rtb-build-agent Version=0.0.1
