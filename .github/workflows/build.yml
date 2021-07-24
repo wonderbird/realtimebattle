@@ -2,8 +2,14 @@ name: Build
 
 on:
   push:
+    paths:
+      - '!Dockerfile.build-agent'
+      - '!.dockerignore'
     branches: [ main ]
   pull_request:
+    paths:
+      - '!Dockerfile.build-agent'
+      - '!.dockerignore'
     branches: [ main ]
 
 jobs:
@@ -14,7 +20,7 @@ jobs:
     container:
       image: ghcr.io/wonderbird/rtb-build-agent:latest
       credentials:
-        username: wonderbird
+        username: ${{ github.actor }}
         password: ${{ secrets.DOCKER_CONTAINER_REGISTRY_TOKEN }}
 
     steps:
