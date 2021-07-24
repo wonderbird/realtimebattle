@@ -1,9 +1,10 @@
 name: Build
 
 on:
-  schedule:
-    # Every Saturday at 21:00 (the night after the build agent image has been updated)
-    - cron: 0 21 * * 6
+  workflow_run:
+    workflows: ["Publish Build Agent Docker Image"]
+    branches: [main]
+    types: [completed]
   push:
     paths:
       - '!Dockerfile.build-agent'

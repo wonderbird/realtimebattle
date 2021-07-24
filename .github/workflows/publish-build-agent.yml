@@ -2,7 +2,7 @@ name: Publish Build Agent Docker Image
 
 on:
   schedule:
-    # Every Friday at 21:00
+    # Run Every Friday at 21:00
     - cron: 0 21 * * 5
   push:
     paths:
