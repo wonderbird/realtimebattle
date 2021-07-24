@@ -8,11 +8,13 @@ on:
     paths:
       - '!Dockerfile.build-agent'
       - '!.dockerignore'
+      - '!.github/workflows/publish-build-agent.yml'
     branches: [ main ]
   pull_request:
     paths:
       - '!Dockerfile.build-agent'
       - '!.dockerignore'
+      - '!.github/workflows/publish-build-agent.yml'
     branches: [ main ]
 
 jobs:
