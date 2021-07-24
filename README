@@ -15,15 +15,25 @@ TO USE THE ROBOTS SUPPLIED WITH THIS PACKAGE ***
  Development
  -----------
 
- The Dockerfile describes a container with the environment required to
- build the application (see file INSTALL).
+ The Dockerfile describes a container with a HTML5 VNC enabled Ubuntu
+ environment you can use to build and run realtimebattle from your browser.
+ The Dockerfile explains how to build and run the container on your machine.
+ INSTALL tells you how to build realtimebattle inside that container.
 
- The latest version of that container is provided at
- ghcr.io/wonderbird/rtb-build-agent:latest . It is used by the GitHub
- build action.
+ Automated Builds
+ ----------------
 
- For more information, refer to "How can I use private docker image in
- github actions" at https://stackoverflow.com/a/64200200 .
+ "Build" action
+
+ This GitHub action rebuilds the application automatically on push and pull
+ request, respectively. The action runs the build commands inside the docker
+ container specified by Dockerfile.build-agent.
+ 
+ "Publish Build Agent Docker Image" action
+
+ Periodically, this GitHub action rebuilds Dockerfile.build-agent and pushes
+ it to ghcr.io/wonderbird/rtb-build-agent:latest. Then the the "Build" action
+ described above is triggered.
 
  More Information
  ----------------

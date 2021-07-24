@@ -1,4 +1,7 @@
 # Create a docker container which allows to build the realtimebattle binaries
+#
+# For more information, refer to "How can I use private docker image in
+# github actions" at https://stackoverflow.com/a/64200200
 
 # GCC support can be specified at major, minor, or micro version
 # (e.g. 8, 8.2 or 8.2.0).
