@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build
+
+    container:
+      image: ghcr.io/wonderbird/rtb-build-agent:latest
+      credentials:
+        username: wonderbird
+        password: ${{ secrets.DOCKER_CONTAINER_REGISTRY_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+          
+      - name: Configure
+        run: ./configure
+
+      - name: Build
+        run: make
+
+      - name: Check
+        run: make check
