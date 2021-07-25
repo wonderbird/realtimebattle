@@ -2,7 +2,7 @@
 
 ## Development
 
-The Dockerfile describes a container with a HTML5 VNC enabled Ubuntu environment you can use to build and run realtimebattle from your browser. The Dockerfile explains how to build and run the container on your machine. INSTALL tells you how to build realtimebattle inside that container.
+The [Dockerfile](../Dockerfile) describes a container with an HTML5 VNC enabled Ubuntu environment you can use to build and run RealTimeBattle from your browser. The [Dockerfile](../Dockerfile) explains how to build and run the container on your machine. [INSTALL](../INSTALL) tells you how to build RealTimeBattle inside that container.
 
 
 ## Automated Builds

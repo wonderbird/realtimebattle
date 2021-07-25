@@ -4,7 +4,7 @@
 
 RealTimeBattle is a programming game for Unix, in which robots controlled by programs are fighting each other. The goal is to destroy the enemies, using the radar to examine the environment and the cannon to shoot.
 
-This repository is a fork of the contents of [RealTimeBattle-1.0.8-Ext.tar.gz](https://sourceforge.net/projects/realtimebattle/files/RealTimeBattle-1.0.x/RealTimeBattle%201.0.8/) ([SHA256 sum below](#origin-of-this-fork)). Please find more details in the [original updated README](README) and on the official [RealTimeBattle project homepage](http://realtimebattle.sourceforge.net/).
+This repository is a fork of the contents of [RealTimeBattle-1.0.8-Ext.tar.gz](https://sourceforge.net/projects/realtimebattle/files/RealTimeBattle-1.0.x/RealTimeBattle%201.0.8/) ([SHA256 sum below](#origin-of-this-fork)). Please find more details in the [original README](README) and on the official [RealTimeBattle project homepage](http://realtimebattle.sourceforge.net/).
 
 
 ## Thanks
@@ -39,7 +39,7 @@ Run the RealTimeBattle UI with a custom configuration:
 ./src/realtimebattle --option_file "$PWD/rtbrc"
 ```
 
-Realtimebattle will use the configuration for developers stored in the `rtbrc` file. When you start developing a new robot, please adjust the configuration property `Robot search path:` to match the directory of your new robot. A good starting point is `/root/realtimebattle/Robots/rotate_and_fire`. For more details, refer to the information in the [Documentation](Documentation) folder.
+Realtimebattle will use the configuration for developers stored in the [rtbrc](rtbrc) file. When you start developing a new robot, please adjust the configuration property `Robot search path:` to match the directory of your new robot. A good starting point is `/root/realtimebattle/Robots/rotate_and_fire`. For more details, refer to the information in the [Documentation](Documentation) folder.
 
 More detailed architecture and development information regarding the RealTimeBattle platform are stored in the [docs](docs) folder.
 
