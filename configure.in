@@ -301,6 +301,7 @@ Robots/perl/perl.robot
 Robots/perl/Makefile
 Robots/raziel/raziel.py.robot
 Robots/raziel/Makefile
+Robots/wonderbot/Makefile
 include/Makefile
 ])
 

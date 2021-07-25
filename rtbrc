@@ -69,6 +69,6 @@ Initial Score window x position: 0
 Initial Score window y position: 481
 Initial Statistics window width: 499
 Initial Statistics window height: 428
-Robot search path: /root/realtimebattle/Robots/rotate_and_fire
+Robot search path: /root/realtimebattle/Robots/wonderbot
 Arena search path: /root/realtimebattle/Arenas
 Directory for temporary files: /root/rtb
