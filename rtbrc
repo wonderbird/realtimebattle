@@ -1,0 +1,74 @@
+Gravitational Constant: 9.82
+Air resistance: 0.005
+Roll friction: 0.002
+Slide/brake friction: 0.1
+Robot max acceleration: 2
+Robot min acceleration: -0.5
+Robot radius: 0.5
+Robot mass: 1
+Robot bounce coefficient: 0.7
+Robot hardness coefficient: 0.5
+Robot protection coefficient: 0.5
+Robot front bounce coefficient: 0.7
+Robot front hardness coefficient: 0.9
+Robot front protection coefficient: 0.9
+Robot frontsize [radians]: 1.0472
+Robot start energy: 100
+Robot max energy: 120
+Robot max rotate speed [rad/s]: 0.785398
+Robot cannon max rotate speed [rad/s]: 1.5708
+Robot radar max rotate speed [rad/s]: 2.0944
+Shot radius: 0.1
+Shot speed: 10
+Shooting penalty (times shot energy): 0.075
+Shot min energy: 0.5
+Shot max energy: 30
+Shot energy increase speed [energy/s]: 10
+Cookie max energy: 15
+Cookie min energy: 10
+Cookie frequency [cookies per second]: 0.03
+Cookie radius: 0.3
+Mine max energy: 25
+Mine min energy: 15
+Mine frequency [mines per second]: 0.06
+Mine radius: 0.3
+Arena scale: 1
+Fast forward factor: 5
+Timeout [s]: 120
+Max timestep: 0.1
+Timescale: 1
+Update interval [s]: 0.05
+Robot startup time [s]: 2
+Start CPU time [s]: 5
+Extra CPU time [s]: 2.5
+Extra CPU period [s]: 60
+CPU time warning percentage: 0.9
+Process check interval: 1
+Send robot coordinates: 2
+Max robots allowed simultaneously: 120
+Robot energy levels: 10
+Background colour: faf0e6
+Foreground colour: 0
+Colour for RTB messages: 1111ee
+Cookie colour: 35d715
+Mine colour: ff0000
+Logging frequency [Each nth update interval]: 1
+Initial Arena window width: 640
+Initial Arena window height: 480
+Initial Arena window x position: 465
+Initial Arena window y position: 0
+Initial Control window x position: 0
+Initial Control window y position: 0
+Initial Message window width: 640
+Initial Message window height: 320
+Initial Message window x position: 465
+Initial Message window y position: 481
+Initial Score window width: 464
+Initial Score window height: 320
+Initial Score window x position: 0
+Initial Score window y position: 481
+Initial Statistics window width: 499
+Initial Statistics window height: 428
+Robot search path: /root/realtimebattle/Robots/rotate_and_fire
+Arena search path: /root/realtimebattle/Arenas
+Directory for temporary files: /root/rtb

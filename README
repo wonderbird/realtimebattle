@@ -12,28 +12,6 @@ TO USE THE ROBOTS SUPPLIED WITH THIS PACKAGE ***
  RealTimeBattle is open source software, distributed under the General
  Public License (GPL). Read more about this license in the file COPYING.
 
- Development
- -----------
-
- The Dockerfile describes a container with a HTML5 VNC enabled Ubuntu
- environment you can use to build and run realtimebattle from your browser.
- The Dockerfile explains how to build and run the container on your machine.
- INSTALL tells you how to build realtimebattle inside that container.
-
- Automated Builds
- ----------------
-
- "Build" action
-
- This GitHub action rebuilds the application automatically on push and pull
- request, respectively. The action runs the build commands inside the docker
- container specified by Dockerfile.build-agent.
- 
- "Publish Build Agent Docker Image" action
-
- Periodically, this GitHub action rebuilds Dockerfile.build-agent and pushes
- it to ghcr.io/wonderbird/rtb-build-agent:latest. Then the the "Build" action
- described above is triggered.
 
  More Information
  ----------------
@@ -88,7 +66,6 @@ TO USE THE ROBOTS SUPPLIED WITH THIS PACKAGE ***
  There is also an email-based interface, for help send an email to
  'realtimebattle-devel-request@lists.sourceforge.net' with just the
  word 'help' in the subject or body.
-
  Contacts
  --------
 
