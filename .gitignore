@@ -14,11 +14,19 @@
 ### The remainder of this file has been ...
 # Created by https://www.toptal.com/developers/gitignore/api/autotools,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=autotools,c++
+# Adopted by me
+# - Because Autotools do not work yet, I am adding Makefile.in for my robots
 
 ### Autotools ###
 # http://www.gnu.org/software/automake
 
 Makefile.in
+
+### Stefan's custom change
+# Because Autotools do not work yet, I am adding Makefile.in for my robots
+!/Robots/wonderbot/Makefile.in
+### /Stefan's custom change
+
 /ar-lib
 /mdate-sh
 /py-compile
