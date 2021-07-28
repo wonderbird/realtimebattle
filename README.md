@@ -1,6 +1,8 @@
 # RealTimeBattle
 
 [![Build Status Badge](https://github.com/wonderbird/realtimebattle/workflows/Build/badge.svg)](https://github.com/wonderbird/realtimebattle/actions?query=workflow%3A%22Build%22)
+[![CodeScene Code Health](https://codescene.io/projects/17256/status-badges/code-health)](https://codescene.io/projects/17256/jobs/latest-successful/results)
+[![CodeScene System Mastery](https://codescene.io/projects/17256/status-badges/system-mastery)](https://codescene.io/projects/17256/jobs/latest-successful/results)
 
 RealTimeBattle is a programming game for Unix, in which robots controlled by programs are fighting each other. The goal is to destroy the enemies, using the radar to examine the environment and the cannon to shoot.
 
